@@ -35,8 +35,8 @@ const About = (props: Props) => {
           <Image
             src={myPic}
             alt={'pic'}
-            width='600px'
-            height='600px'
+            width={600}
+            height={600}
             className='flex-shrink-0 
           object-cover rounded-full sm:rounded-md'
           />
