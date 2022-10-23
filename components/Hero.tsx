@@ -33,7 +33,7 @@ const Hero = (props: Props) => {
           </div>
           <Image
             src={myPic}
-            alt='pic'
+            alt={'pic'}
             width='200px'
             height='200px'
             className='relative  mx-auto rounded-full  object-cover'

@@ -21,7 +21,7 @@ const Skill = ({ directionLeft }: Props) => {
       >
         <Image
           src={sanity}
-          alt='sanity'
+          alt={'sanity'}
           height={50}
           width={50}
           objectFit='cover'

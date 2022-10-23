@@ -34,7 +34,7 @@ const About = (props: Props) => {
         >
           <Image
             src={myPic}
-            alt='pic'
+            alt={'pic'}
             width='600px'
             height='600px'
             className='flex-shrink-0 
