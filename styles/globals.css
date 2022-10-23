@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: rgb(29,29,29);
+}
+
+.contact-input{
+    @apply outline-none border-b transition-all bg-slate-400/10 rounded-md py-2
+    placeholder-gray-500 text-gray-400
+    px-4 border-[#242424]
+    hover:border-[#808080]
+}
