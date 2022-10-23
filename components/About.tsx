@@ -7,7 +7,7 @@ type Props = {};
 
 const About = (props: Props) => {
   return (
-    <div className='relative mt-52 h-screen text-center flex flex-col md:text-left   max-w-7xl px-10 justify-center mx-auto items-center pt-10 space-y-5'>
+    <div className='relative mt-52 h-screen text-center flex flex-col md:text-left   max-w-7xl px-10 justify-end md:justify-center mx-auto items-center pt-10 space-y-5'>
       <div className='absolute top-24'>
         <h3 className=' uppercase tracking-[16px] text-2xl text-gray-300'>
           About
@@ -27,21 +27,22 @@ const About = (props: Props) => {
             duration: 1.1,
           }}
           viewport={{ once: true }}
-          className='w-[200px]  h-[200px] 
-        md:mb-1 mb-0
+          className='w-full  h-full w-[200px] h-[250px]
+        md:mb-0 mb-0
         rounded md:rounded  
-        md:w-[300px] md:h-[350px] '
+         '
         >
           <Image
             src={myPic}
             alt={'pic'}
             width={600}
             height={600}
-            className='flex-shrink-0 
-          object-cover rounded-full sm:rounded-md md:w-[300px] md:h-[350px] '
+            objectFit='cover'
+            className='
+          object-cover rounded-md  sm:rounded-md md:w-[300px] md:h-[350px] '
           />
         </motion.div>
-        <div className='w-full h-full text-justify p-6 sm:w-2/3 text-gray-400'>
+        <div className='w-full h-full text-justify p-6 md:w-1/3 text-gray-400'>
           <p>
             I am a professional frontend and backend developer with over five
             year experience in Python, React, Angular and React native mobile
