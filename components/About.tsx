@@ -38,7 +38,7 @@ const About = (props: Props) => {
             width={600}
             height={600}
             className='flex-shrink-0 
-          object-cover rounded-full sm:rounded-md'
+          object-cover rounded-full sm:rounded-md md:w-[300px] md:h-[350px] '
           />
         </motion.div>
         <div className='w-full h-full text-justify p-6 sm:w-2/3 text-gray-400'>
