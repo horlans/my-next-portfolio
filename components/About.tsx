@@ -29,7 +29,7 @@ const About = (props: Props) => {
           viewport={{ once: true }}
           className='w-[200px]  h-[200px] 
         md:mb-1 mb-0
-        rounded-full md:rounded  
+        rounded md:rounded  
         md:w-[300px] md:h-[350px] '
         >
           <Image
